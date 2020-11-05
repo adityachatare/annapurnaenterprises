@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Muli", sans-serif;
+}
+
+.navbar {
+    background-color: #fff !important;
+    color: #FF4848 !important;
+}
+
+.navbar-brand {
+    font-size: 1.9rem !important;
+    color: #565387 !important;
+}
+
+.navbar a {
+    text-transform: capitalize;
+    /*color: #FF4848 !important;*/
+}
+
+.menu_active {
+    font-weight: bold;
+    border-bottom: 1px solid #FF4848;
+}
+
+.navbar a:hover {
+    color: #3498db !important;
+}
+
+#header .brand-name {
+    color: #FF4848;
+}
+
+#header {
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+}
+
+#header h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+#header h2 {
+    color: #484848;
+    font-size: 24px;
+}
+
+.header-img {
+    text-align: right;
+}
+
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@media(max-width:991px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
